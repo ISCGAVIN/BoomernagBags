@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "598649799575",
+    "firebase_url": "https://boomerang-bags-f5488.firebaseio.com",
+    "project_id": "boomerang-bags-f5488",
+    "storage_bucket": "boomerang-bags-f5488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598649799575:android:77a239d7a0490e5d943ad2",
+        "android_client_info": {
+          "package_name": "com.example.boomerangbags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598649799575-a56cjijta23j2pu86qurqmqemo04vej0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boomerangbags",
+            "certificate_hash": "0a2287cb94e92b3da80ad315e73a34b3df0cff51"
+          }
+        },
+        {
+          "client_id": "598649799575-thqivtl8lleqnfvqndglilssiklpt752.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxZLxdY6k_XOdIPDSbudzi1CsjY_0mjqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598649799575-thqivtl8lleqnfvqndglilssiklpt752.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
