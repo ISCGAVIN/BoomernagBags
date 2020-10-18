@@ -59,13 +59,15 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/user"/>
+                    android:src="@drawable/setting"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Setting"
-                    android:layout_marginTop="15dp"/>
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -87,13 +89,15 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/user"/>
+                        android:src="@drawable/bag_01"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
+                        android:layout_marginTop="15dp"
+                        android:text="Bags"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -115,13 +119,15 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/user"/>
+                        android:src="@drawable/store"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
+                        android:layout_marginTop="15dp"
+                        android:text="Store"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -143,13 +149,15 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/user"/>
+                        android:src="@drawable/cummunity"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
+                        android:text="Community"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -171,13 +179,15 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/user"/>
+                        android:src="@drawable/message"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
+                        android:layout_marginTop="15dp"
+                        android:text="Message "
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -199,16 +209,19 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/user"/>
+                        android:src="@drawable/donation"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
+                        android:text="Donation"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -216,55 +229,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="13dp"
-                android:layout_margin="13dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/user"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="13dp"
-                android:layout_margin="13dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/user"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Setting"
-                        android:layout_marginTop="15dp"/>
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+                android:layout_margin="13dp"/>
 
         </GridLayout>
 

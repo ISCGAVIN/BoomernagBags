@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Boomerang Bags</string>
+    
+    <string-array name="BagID">
+        <item>bag01</item>
+        <item>bag02</item>
+        <item>bag03</item>
+        <item>bag04</item>
+        <item>bag05</item>
+        <item>bag06</item>
+        <item>bag07</item>
+        <item>bag08</item>
+        <item>bag09</item>
+        <item>bag10</item>
+    </string-array>
+    
+    <string-array name="description">
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+        <item>This is a reused bag</item>
+    </string-array>
 </resources>
